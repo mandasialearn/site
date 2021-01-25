@@ -1,30 +1,30 @@
-# Learning Rust
+# Belajar Rust
 
-### Basics
-* [Why Rust](source/docs/a1.why_rust.md)
-* [Installation](source/docs/a2.installation.md)
+### Dasar
+* [Mengapa Rust](source/docs/a1.why_rust.md)
+* [Instalasi](source/docs/a2.installation.md)
 * [Hello World](source/docs/a3.hello_world.md)
-* [Cargo,crates and basic project structure](source/docs/a4.cargo,crates_and_basic_project_structure.md)
-* [Comments and documenting the code](source/docs/a5.comments_and_documenting_the_code.md)
-* [Variable bindings, constants and statics](source/docs/a6.variable_bindings,constants_and_statics.md)
-* [Functions](source/docs/a7.functions.md)
-* [Primitive data types](source/docs/a8.primitive_data_types.md)
-* [Operators](source/docs/a9.operators.md)
-* [Control flows](source/docs/a10.control_flows.md)
+* [Cargo,crates and struktur project dasar](source/docs/a4.cargo,crates_and_basic_project_structure.md)
+* [Komentar dan dokumentasi kode](source/docs/a5.comments_and_documenting_the_code.md)
+* [Variabel, konstanta, and statis](source/docs/a6.variable_bindings,constants_and_statics.md)
+* [Fungsi](source/docs/a7.functions.md)
+* [Tipe data primitiv](source/docs/a8.primitive_data_types.md)
+* [Operator](source/docs/a9.operators.md)
+* [Pengontrol bersyarat](source/docs/a10.control_flows.md)
 
-### Beyond The Basics
-* [Vectors](source/docs/b1.vectors.md)
+### Lebih Jauh Mengenai Dasar Rust
+* [Vektor](source/docs/b1.vectors.md)
 * [Structs](source/docs/b2.structs.md)
 * [Enums](source/docs/b3.enums.md)
-* [Generics](source/docs/b4.generics.md)
+* [Generik](source/docs/b4.generics.md)
 * [Impls and traits](source/docs/b5.impls_and_traits.md)
 
-### The Tough Part
+### Bagian yang Sulit
 * [Ownership](source/docs/c1.ownership.md)
 * [Borrowing](source/docs/c2.borrowing.md)
 * [Lifetimes](source/docs/c3.lifetimes.md)
     
-### Lets Get It Started
+### Mari kita mulai
 * [Code organization](source/docs/d1.code_organization.md)
 * [Functions](source/docs/d2.functions.md)
 * [Modules](source/docs/d3.modules.md)
@@ -33,7 +33,7 @@
 * [use](source/docs/d6.use.md)
 * [std, primitives and preludes](source/docs/d7.std_primitives_and_preludes.md)
 
-### Error Handling
+### Penanganan Eror
 * [Smart Compiler](source/docs/e1.smart_compiler.md)
 * [Panicking](source/docs/e2.panicking.md)
 * [Option and Result](source/docs/e3.option_and_result.md)
@@ -43,20 +43,20 @@
 * [Custom Error Types](source/docs/e7.custom_error_types.md)
 
 ---
-* Site : http://learning-rust.github.io
+* Situs : http://learning-rust.github.io
 * Medium: https://medium.com/learning-rust
 
-> 🐣 I am a **Sri Lankan** 🇱🇰 Web Developer who lives in **Vietnam** 🇻🇳. So I am not a native English speaker and just learning Rust, If you found any mistake or something need to be changed, even a spelling or a grammar mistake, feel free to create a pull request. Thanks.
+> 🐣 Ini adalah sebuah dokumentasi dari seorang Web Developer **Sri Lankan** 🇱🇰 yang tinggal di **Vietnam** 🇻🇳. Jadi, dia ini bukan seorang penutur asli bahasa Inggris, dia ini hanya seorang yang sedang belajar Rust. Bila kamu menemukan kesalahan atau sesuatu yang perlu diubah, dan juga bahkan kesalahan pengejaan atau tatabahasa, aku sangat mengapresiasi bila kamu bisa membuat *pull request*. Terima kasih.
 
 ---
 
-# learning-rust.github.io(source)
+# learning-rust.github.io(sumber)
 
-The website is built with [Hexo](https://hexo.io/) Nodejs blog framework. You can see the generated files at [learning-rust/learning-rust.github.io](https://github.com/learning-rust/learning-rust.github.io) repository.
+Situs ini dibangun dengan [Hexo](https://hexo.io/) framework blog Nodejs. Kamu bisa lihat hasil di repo [learning-rust/learning-rust.github.io](https://github.com/learning-rust/learning-rust.github.io).
 
-## Getting started
+## Permulaan
 
-Install dependencies:
+Instal tool yang dibutuhkan
 
 ``` bash
 $ git clone git@github.com:learning-rust/site.git
@@ -71,7 +71,7 @@ Generate:
 $ hexo generate
 ```
 
-Run server:
+Jalankan server:
 
 ``` bash
 $ hexo server
